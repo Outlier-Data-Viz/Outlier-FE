@@ -7,6 +7,7 @@ import { DataProvider, useActiveData } from '../../../context/Data/DataCtx';
 import { StateProvider } from '../../../context/State/StateCtx';
 import { DataCtx } from '../../../context/Data/DataCtx';
 import { StateCtx } from '../../../context/State/StateCtx';
+import { useScreen } from '../../../context/Device/Device'
 import KeyLight from '../Lights/KeyLight';
 import RimLight from '../Lights/RimLight';
 import SpotLights from '../Lights/SpotLight';
